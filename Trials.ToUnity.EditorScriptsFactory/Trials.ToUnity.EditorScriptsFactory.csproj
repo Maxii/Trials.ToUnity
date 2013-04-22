@@ -7,7 +7,8 @@
     <ProjectGuid>{2DC4B921-AB91-491F-A017-0FF2B339C101}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>Trials.ToUnity.EditorScriptsFactory</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -37,10 +38,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEditor">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <HintPath>$(ProgramFiles)\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(ProgramFiles)\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -53,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.Resources\CodeEnv.Master.Common.Resources.csproj">
+    <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common.LocalResources\CodeEnv.Master.Common.LocalResources.csproj">
       <Project>{30988a11-a4f0-4fdc-82d5-41b87ea410be}</Project>
-      <Name>CodeEnv.Master.Common.Resources</Name>
+      <Name>CodeEnv.Master.Common.LocalResources</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\CodeEnv\CodeEnv.Master\CodeEnv.Master.Common\CodeEnv.Master.Common.csproj">
       <Project>{1557c03e-56ee-4c70-9bd8-ab637d3191cf}</Project>
